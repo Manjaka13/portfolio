@@ -56,6 +56,9 @@
 						vertical-align: top;
 						padding-left: 10px;
 						padding-top: 12px;
+						@media only screen and (max-width: $vrc-screen-md) {
+							padding-top: 20px;
+						}
 					}
 				}
 				.text {

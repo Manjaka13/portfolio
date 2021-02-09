@@ -56,8 +56,12 @@
 				overflow: hidden;
 				padding-left: 10px;
 				padding-right: 10px;
+				@media only screen and (max-width: $vrc-screen-md) {
+					margin-top: 17px;
+				}
 				@media only screen and (max-width: $vrc-screen-sm) {
 					height: 40px;
+					margin-top: 15px;
 				}
 				.slide-item {
 					display: block;
@@ -70,12 +74,12 @@
 					.content {
 						font-size: 20pt;
 						color: lime;
-						padding-top: 11px;
+						padding-top: 15px;
 						text-shadow: 0px 1px 2px black;
 						text-align: left;
 						@media only screen and (max-width: $vrc-screen-sm) {
 							font-size: 15pt;
-							padding-top: 5px;
+							padding-top: 9px;
 						}
 						@media only screen and (max-width: $vrc-screen-xsm) {
 							text-align: center;
@@ -135,11 +139,17 @@
 					color: rgb(170, 170, 170);
 					font-size: 33pt;
 					margin-top: 0px;
+					@media only screen and (max-width: $vrc-screen-xsm) {
+						font-size: 22pt;
+					}
 					&:hover {
 						color: white;
 					}
-					@media only screen and (max-width: $vrc-screen-xsm) {
-						font-size: 22pt;
+					.icon {
+						margin-top: 8px;
+						@media only screen and (max-width: $vrc-screen-xsm) {
+							margin-top: 6px;
+						}
 					}
 				}
 			}
