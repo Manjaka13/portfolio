@@ -1,0 +1,73 @@
+@import "../config";
+.vrc-title {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	color: rgb(59, 67, 81);
+}
+.vrc-title-xlg {
+    font-size: 50pt;
+}
+.vrc-title-lg {
+    font-size: 40pt;
+}
+.vrc-title-md {
+    font-size: 30pt;
+}
+.vrc-title-sm {
+    font-size: 25pt;
+}
+.vrc-title-xsm {
+    font-size: 20pt;
+}
+@media only screen and (max-width: $vrc-screen-lg) {
+	.vrc-title-xlg {
+    	font-size: 40pt;
+	}
+	.vrc-title-lg {
+	    font-size: 30pt;
+	}
+	.vrc-title-md {
+	    font-size: 25pt;
+	}
+	.vrc-title-sm {
+	    font-size: 22pt;
+	}
+	.vrc-title-xsm {
+	    font-size: 18pt;
+	}
+}
+@media only screen and (max-width: $vrc-screen-md) {
+	.vrc-title-xlg {
+    	font-size: 30pt;
+	}
+	.vrc-title-lg {
+	    font-size: 25pt;
+	}
+	.vrc-title-md {
+	    font-size: 22pt;
+	}
+	.vrc-title-sm {
+	    font-size: 18pt;
+	}
+	.vrc-title-xsm {
+	    font-size: 15pt;
+	}
+}
+@media only screen and (max-width: $vrc-screen-xsm) {
+	.vrc-title-xlg {
+    	font-size: 20pt;
+	}
+	.vrc-title-lg {
+	    font-size: 18pt;
+	}
+	.vrc-title-md {
+	    font-size: 16pt;
+	}
+	.vrc-title-sm {
+	    font-size: 15pt;
+	}
+	.vrc-title-xsm {
+	    font-size: 13pt;
+	}
+}

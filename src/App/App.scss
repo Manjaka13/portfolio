@@ -1,0 +1,11 @@
+/*
+	We gonna need some global styling
+*/
+
+//Some global vars
+@import "../vrc/config";
+.pf-app {
+	width: 100%;
+	height: 100%;
+	background: rgb(245, 245, 245);
+}

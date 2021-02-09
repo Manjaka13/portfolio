@@ -1,0 +1,28 @@
+@import "../config";
+.vrc-text {
+	text-align: justify;
+	color: rgb(90, 90, 90);
+	font-size: 16pt;
+	padding: 0;
+	margin: 0;
+}
+@media only screen and (max-width: $vrc-screen-lg) {
+	.vrc-text {
+		font-size: 15pt;
+	}
+}
+@media only screen and (max-width: $vrc-screen-md) {
+	.vrc-text {
+		font-size: 13pt;
+	}
+}
+@media only screen and (max-width: $vrc-screen-sm) {
+	.vrc-text {
+		font-size: 12pt;
+	}
+}
+@media only screen and (max-width: $vrc-screen-xsm) {
+	.vrc-text {
+		font-size: 11pt;
+	}
+}

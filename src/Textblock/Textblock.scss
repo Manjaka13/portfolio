@@ -1,0 +1,41 @@
+@import "../vrc/config";
+
+.pf-textblock {
+	display: flex;
+	width: 100%;
+	justify-content: center;
+	padding-top: 96px;
+	@media only screen and (max-width: $vrc-screen-sm) {
+		padding-top: 70px;
+	}
+	.padded-block {
+		display: block;
+		width: 75%;
+		@media only screen and (max-width: 1000px) {
+			width: 85%;
+		}
+		@media only screen and (max-width: $vrc-screen-xsm) {
+			width: 93%;
+		}
+		.vrc-title {
+			text-align: left;
+		}
+		.title1 {
+			color: rgb(221, 0, 49);
+		}
+		.title2 {
+			padding-top: 10px;
+			padding-bottom: 20px;
+		}
+		.bold {
+			font-weight: bold;
+		}
+		.separator {
+			display: block;
+			width: 100%;
+			height: 4px;
+			background: rgb(221, 0, 49);
+			margin-bottom: 20px;
+		}
+	}
+}

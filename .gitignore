@@ -1,0 +1,5 @@
+/node_modules
+*.env
+*.db
+*.eslintcache
+package-lock.json

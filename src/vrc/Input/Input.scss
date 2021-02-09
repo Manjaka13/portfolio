@@ -1,0 +1,32 @@
+.vrc-input {
+	display: block;
+	width: 85%;
+	margin: auto;
+	padding: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border: none;
+	background: white;
+	box-shadow: 0px 0px 10px rgb(200, 200, 200);
+	transition: all 0.2s ease-in-out;
+	border-radius: 20px;
+	&:hover {
+		box-shadow: 0px 0px 5px rgb(100, 100, 100);
+	}
+	&:focus {
+		box-shadow: 0px 0px 1px black;
+	}
+}
+.vrc-input-wrong {
+	box-shadow: 0px 0px 10px rgb(255, 0, 55);
+	&:hover {
+		box-shadow: 0px 0px 5px red;
+	}
+	&:focus {
+		box-shadow: 0px 0px 2px red;
+	}
+}
+.vrc-input-disabled {
+	pointer-events: none;
+	color: grey;
+}

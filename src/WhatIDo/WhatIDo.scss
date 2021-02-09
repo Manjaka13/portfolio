@@ -1,0 +1,71 @@
+@import "../vrc/config";
+
+.pf-whatido {
+	display: block;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	background: url(../assets/background_developer.jpg) top right no-repeat;
+	background-size: cover;
+	box-shadow: 0px 0px 4px black;
+	text-align: center;
+	.container {
+		display: block;
+		width: 100%;
+		background: rgba(25, 25, 25, 0.6);
+		padding-top: 20px;
+		padding-bottom: 20px;
+		.title {
+			color: white;
+			text-shadow: 0px 1px 2px black;
+			padding-bottom: 20px;
+		}
+		.left,
+		.right {
+			display: inline-block;
+			vertical-align: top;
+			width: 48%;
+			@media only screen and (max-width: 600px) {
+				display: block;
+				width: 100%;
+			}
+			.box {
+				margin-bottom: 20px;
+				transition: background 0.4s ease-in-out;
+				@media only screen and (max-width: 600px) {
+					margin-bottom: 0;
+				}
+				&:hover {
+					background: rgba(25, 25, 25, 0.7);
+				}
+				.label {
+					color: rgb(255, 36, 85);
+					text-shadow: 0px 1px 2px black;
+					text-align: left;
+					padding-left: 20px;
+					padding-top: 20px;
+					pointer-events: none;
+				}
+				.text {
+					color: white;
+					color: rgb(220, 220, 220);
+					text-shadow: 0px 1px 2px black;
+					padding: 20px;
+					pointer-events: none;
+				}
+			}
+		}
+		.left {
+			border-right: 2px rgb(221, 0, 49) solid;
+			@media only screen and (max-width: 600px) {
+				border: none;
+			}
+		}
+		.right {
+			border-left: 2px rgb(221, 0, 49) solid;
+			@media only screen and (max-width: 600px) {
+				border: none;
+			}
+		}
+	}
+}

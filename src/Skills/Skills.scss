@@ -1,0 +1,65 @@
+@import "../vrc/config";
+
+.pf-skills {
+	.skill-list {
+		display: block;
+		width: 100%;
+		text-align: center;
+		padding-top: 20px;
+		.skill {
+			display: inline-block;
+			vertical-align: top;
+			background: white;
+			width: 30%;
+			height: 400px;
+			overflow: hidden;
+			box-shadow: 0px 0px 10px rgb(200, 200, 200);
+			margin: 10px;
+			transition: all 0.2s ease-in-out;
+			@media only screen and (max-width: $vrc-screen-md) {
+				width: 45%;
+				height: 300px;
+			}
+			@media only screen and (max-width: 450px) {
+				width: 100%;
+				margin: 0;
+				height: 200px;
+				margin-bottom: 20px;
+			}
+			&:hover {
+				box-shadow: 0px 0px 20px grey;
+			}
+			.head {
+				display: flex;
+				width: 100%;
+				height: 35%;
+				overflow: hidden;
+				box-shadow: 0px 0px 1px black;
+				justify-content: center;
+				align-items: center;
+				.logo {
+					display: block;
+					width: auto;
+					height: 60%;
+					border-radius: 10px;
+				}
+			}
+			.body {
+				display: block;
+				width: 100%;
+				height: 65%;
+				overflow: hidden;
+				/*background: rgb(34, 34, 34);*/
+				.title {
+					padding-top: 10px;
+					pointer-events: none;
+					text-align: center;
+				}
+				.text {
+					padding: 10px;
+					pointer-events: none;
+				}
+			}
+		}
+	}
+}
