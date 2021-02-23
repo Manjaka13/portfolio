@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState, useEffect} from "react";
 import Textblock from "../Textblock/Textblock";
 import {Title, Text} from "../vrc";
 import "./Works.scss";
@@ -6,9 +6,20 @@ import {FontAwesomeIcon as Icon} from "@fortawesome/react-fontawesome";
 import {faLink} from "@fortawesome/free-solid-svg-icons";
 import {faGithub} from "@fortawesome/free-brands-svg-icons";
 import works from "./Worksdata";
+import loading from "../assets/loading.gif";
 
 function Works() {
-	const mapped_works = works.map((work, n) => {
+	const delay = 2000;
+	const [shown, show] = useState(false);
+	let mapped_works;
+	//Component did mount
+	useEffect(() => {
+		setTimeout(() => show(true), delay);
+		return show(false);
+	}, []);
+
+	if(shown) {
+	mapped_works = works.map((work, n) => {
 		const mapped_techs = work.techs.map((tech, k) => {
 			return (<li key={k}>{tech}</li>);
 		});
@@ -45,6 +56,17 @@ function Works() {
 			</div>
 		);
 	});
+	}
+	else {
+		mapped_works = (
+			<div className="empty">
+				<div className="box">
+					<img className="loading" src={loading} alt="..." />
+					<Text className="text">Loading projects...</Text>
+				</div>
+			</div>
+		);
+	}
 	return (
 		<Textblock id="works" className="pf-works">
 			<Title className="title1" h2 sm>Work samples</Title>
