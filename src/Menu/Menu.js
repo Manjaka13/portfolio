@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import "./Menu.scss";
 import {Title, Text} from "../vrc/";
 import data from "../Navigation/Navigationdata";

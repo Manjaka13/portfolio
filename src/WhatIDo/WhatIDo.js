@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from "react";
+import React from "react";
 import "./WhatIDo.scss";
 import {FontAwesomeIcon as Icon} from "@fortawesome/react-fontawesome";
 import {faDatabase, faLaptop, faCodeBranch, faListAlt} from "@fortawesome/free-solid-svg-icons";
