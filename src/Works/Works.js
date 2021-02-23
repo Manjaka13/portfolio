@@ -24,6 +24,7 @@ function Works() {
 			return (<li key={k}>{tech}</li>);
 		});
 		const cn = n % 2 === 0 ? "row" : "row row-alternate";
+		const demo = work.link ? (<a className="vrc-link link" href={work.link} title="View project live"><Icon icon={faLink}/> Demo</a>) : "";
 		return (
 			<div className={cn} key={n}>
 				<div className="left little">
@@ -35,9 +36,7 @@ function Works() {
 					</div>
 					<Text className="text">{work.about}</Text>
 					<div className="links">
-						<a className="vrc-link link" href={work.link} title="View project live">
-							<Icon icon={faLink}/> Demo
-						</a>
+						{demo}
 						<a className="vrc-link link" href={work.repo} title="Go to project's repository">
 							<Icon icon={faGithub}/> Repository
 						</a>

@@ -47,7 +47,6 @@ const data = [
 		logo: logo_portfolio,
 		image: image_portfolio,
 		techs: ["React", "SASS", "Particles.js", "Anime.js"],
-		link: "#",
 		repo: "https://github.com/Manjaka13/portfolio"
 	},
 	{
@@ -77,7 +76,6 @@ const data = [
 		logo: logo_eyeofgod,
 		image: image_eyeofgod,
 		techs: ["HTML/CSS", "JQuery", "Face API", "NodeJS", "Express.js", "Arduino"],
-		link: "#0",
 		repo: "https://github.com/Manjaka13/eye-of-god"
 	},
 	{
@@ -87,8 +85,7 @@ const data = [
 		logo: logo_mms,
 		image: image_mms,
 		techs: ["HTML/CSS", "Vanila JS", "PHP"],
-		link: "#0",
-		repo: "https://github.com/Manjaka13/eye-of-god"
+		repo: "https://github.com/Manjaka13/mms"
 	},
 	{
 		name: "Résidence Mahasoa",
@@ -97,8 +94,7 @@ const data = [
 		logo: logo_residence_mahasoa,
 		image: image_residence_mahasoa,
 		techs: ["HTML/CSS", "Vanila JS", "PHP"],
-		link: "#0",
-		repo: "https://github.com/Manjaka13/eye-of-god"
+		repo: "https://github.com/Manjaka13/residence-mahasoa"
 	},
 	{
 		name: "VRDev",
@@ -107,8 +103,7 @@ const data = [
 		logo: logo_vrdev,
 		image: image_vrdev,
 		techs: ["Next.js", "React", "Anime.js", "Particles.js", "NodeJS", "Express.js"],
-		link: "#0",
-		repo: "https://github.com/Manjaka13/eye-of-god"
+		repo: "https://github.com/Manjaka13/vrdev"
 	},
 	{
 		name: "",
@@ -117,8 +112,7 @@ const data = [
 		logo: logo_combimadagascar,
 		image: image_combimadagascar,
 		techs: ["HTML/CSS", "Vanilla JS", "PHP", "Weather API", "Tawk.to"],
-		link: "#0",
-		repo: "https://github.com/Manjaka13/eye-of-god"
+		repo: "https://github.com/Manjaka13/combimadagascar"
 	}
 ];
 
