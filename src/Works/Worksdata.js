@@ -18,6 +18,10 @@ import logo_vrdev from "../assets/brands/vrdev.png";
 import image_vrdev from "../assets/vrdev.jpg";
 import logo_combimadagascar from "../assets/brands/combimadagascar.png";
 import image_combimadagascar from "../assets/combimadagascar.jpg";
+import logo_currency_converter from "../assets/brands/currency-converter.png";
+import image_currency_converter from "../assets/currency-converter.jpg";
+import logo_todolist from "../assets/brands/todolist.png";
+import image_todolist from "../assets/todolist.jpg";
 
 const data = [
 	{
@@ -54,7 +58,7 @@ const data = [
 		logo: logo_rpc,
 		image: image_rpc,
 		techs: ["HTML", "SASS", "React"],
-		link: "https://rpc-game-manjaka13-heroku.app",
+		link: "https://rps-game-manjaka13-herokuapp.com",
 		repo: "https://github.com/Manjaka13/rock-paper-scissors"
 	},
 	{
@@ -111,7 +115,28 @@ const data = [
 		image: image_combimadagascar,
 		techs: ["HTML/CSS", "Vanilla JS", "PHP", "Weather API", "Tawk.to"],
 		repo: "https://github.com/Manjaka13/combimadagascar"
+	},
+	{
+		name: "Currency converter",
+		about: "Converts currencies from all over the world in this app in real time. I uses an external web service to gather the information about the currencies and their values.",
+		color: "orange",
+		logo: logo_currency_converter,
+		image: image_currency_converter,
+		techs: ["React", "Express.JS", "FreeCurConv API"],
+		link: "https://currency-converter-manjaka13.herokuapp.com",
+		repo: "https://github.com/Manjaka13/currency-converter"
+	},
+	{
+		name: "Todolist",
+		about: "Standard todolist app for saving todos. Front end is on Netlify while Express backend was deployed on Heroku, database lies in freeMySQMHosting.",
+		color: "rgb(40, 40, 40)",
+		logo: logo_todolist,
+		image: image_todolist,
+		techs: ["React", "Express.JS", "MySQL"],
+		link: "https://todolist-app-manjaka13.netlify.app",
+		repo: "https://github.com/Manjaka13/todolist-client"
 	}
+
 ];
 
 export default data;
