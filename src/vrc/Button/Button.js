@@ -5,6 +5,8 @@ import "./Button.scss";
 class Button extends VRC {
 	constructor(props) {
 		super(props, "vrc-button", "vrc-text");
+		if(props.disabled)
+			this.append("vrc-button-disabled");
 	}
 	render() {
 		if(this.children) {

@@ -15,3 +15,7 @@
 		box-shadow: 0px 0px 30px black;
 	}
 }
+.vrc-button-disabled {
+	color: grey;
+	pointer-events: none;
+}

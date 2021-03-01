@@ -3,6 +3,7 @@ import css3 from "../assets/logo/css3.png";
 import sass from "../assets/logo/sass.png";
 import javascript from "../assets/logo/javascript.png";
 import jquery from "../assets/logo/jquery.gif";
+import php from "../assets/logo/php.png";
 import mysql from "../assets/logo/mysql.png";
 import mongodb from "../assets/logo/mongodb.png";
 import express from "../assets/logo/express.png";
@@ -41,6 +42,12 @@ const data = {
 			about: "I use one of the most popular library for doing Ajax calls and manipulating the DOM at high speed.",
 			color: "rgb(56, 170, 245)",
 			logo: jquery
+		},
+		{
+			name: "PHP",
+			about: "Sometimes it's better to rely on PHP for simple APIs for the application, it's really powerfull.",
+			color: "rgb(79, 91, 147)",
+			logo: php
 		},
 		{
 			name: "MySQL",
