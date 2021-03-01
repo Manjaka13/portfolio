@@ -22,13 +22,12 @@ import image_combimadagascar from "../assets/combimadagascar.jpg";
 const data = [
 	{
 		name: "Namanagasycar",
-		about: "This is on of my very first websites. Its purpose is to promote tourism in Madagascar and to discover the great island through Jonathan's travel agency.",
+		about: "This is one of my very first websites. Its purpose is to promote tourism in Madagascar and to discover the great island through Jonathan's travel agency.",
 		color: "rgb(235, 127, 43)",
 		logo: logo_namanagasycar,
 		image: image_namanagasycar,
 		techs: ["SASS", "MongoDB", "Express.js", "React", "Next.js"],
-		link: "https://namanagasycar.com",
-		repo: "https://github.com/Manjaka13/namanagasycar"
+		repo: "https://github.com/Manjaka13/namanagasy"
 	},
 	{
 		name: "Covid-19",
@@ -37,8 +36,7 @@ const data = [
 		logo: logo_covid19,
 		image: image_covid19,
 		techs: ["HTML/CSS", "Vanilla JS", "Chart.js", "Disease API", "PHP"],
-		link: "https://covid19-manjaka13-heroku.app",
-		repo: "https://github.com/Manjaka13/covid19"
+		repo: "https://github.com/Manjaka13/covid-19"
 	},
 	{
 		name: "My portfolio",
@@ -66,7 +64,7 @@ const data = [
 		logo: logo_berealmineral,
 		image: image_berealmineral,
 		techs: ["HTML/CSS", "Jquery", "PHP"],
-		link: "https://berealmineral-heroku.app",
+		link: "https://berealmineral.netlify.app",
 		repo: "https://github.com/Manjaka13/berealmineral"
 	},
 	{
